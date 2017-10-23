@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wn.scrollhintedittext.MainActivity">
+
+
+    <wn.scrollhint.ScrollHintEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:animIn="@anim/anim_super_course_in"
+        app:animOut="@anim/anim_super_course_out"
+        app:autoStartAnim="true"
+        app:hintDefaultText="大家都在搜:哈哈哈哈，广州降温"
+        app:hintScrollDelayed="1500"
+        app:hintTxvColor="@android:color/darker_gray"
+        app:hintTxvSize="12dip"
+        android:background="@drawable/shape_edit"
+        />
+
+
+</RelativeLayout>

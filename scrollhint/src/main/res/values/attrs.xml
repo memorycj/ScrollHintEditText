@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="animIn" format="reference" />
+    <attr name="animOut" format="reference" />
+    <attr name="autoStartAnim" format="boolean" />
+    <attr name="editLeftDrawable" format="reference" />
+    <attr name="editBackground" format="reference" />
+    <attr name="hintTxvColor" format="reference|color" />
+    <attr name="hintTxvSize" format="reference|dimension" />
+    <attr name="hintScrollDelayed" format="integer" />
+    <attr name="hintDefaultText" format="reference|string" />
+
+
+    <declare-styleable name="ScrollHintEditText">
+        <attr name="animIn" />
+        <attr name="animOut" />
+        <attr name="autoStartAnim" />
+        <attr name="editLeftDrawable" />
+        <attr name="hintTxvColor" />
+        <attr name="hintTxvSize" />
+        <attr name="hintScrollDelayed" />
+        <attr name="hintDefaultText" />
+        <attr name="editBackground" />
+    </declare-styleable>
+</resources>
